@@ -8,13 +8,13 @@ int main()
     float machinePrice,toyPrice;
     int age;
 
-    cout<<"Enter the Age of lilly: ";
+    cout<<"Enter the Age : ";
     cin>>age;
 
     cout<<"Enter the Washing Machine Price: ";
     cin>>machinePrice;
 
-    cout<<"Enter the Price of each TOy: ";
+    cout<<"Enter the price of toy : ";
     cin>>toyPrice;
 
     float ans = calculateMoney(age,machinePrice,toyPrice);

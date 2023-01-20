@@ -8,17 +8,17 @@ int main()
 {
     int num1,num2;
 
-    cout<<"Enter the first number: ";
+    cout<<"Enter 1st number: ";
     cin>>num1;
 
-    cout<<"Enter the second number: ";
+    cout<<"Enter 2nd number: ";
     cin>>num2;
 
     int hcf = calculateGCD(num1,num2);
-    cout<<"HCF = "<<hcf<<endl;
+    cout<<"HCF : "<<hcf<<endl;
 
     int lcm = calculateLCM(num1,num2,hcf);
-    cout<<"LCM = "<<lcm<<endl;
+    cout<<"LCM : "<<lcm<<endl;
 }
 
 int calculateGCD(int num1,int num2)

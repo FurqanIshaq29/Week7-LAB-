@@ -7,7 +7,7 @@ int main()
 {
     float num;
 
-    cout<<"Enter the numbers: ";
+    cout<<"Enter all the numbers: ";
     cin>>num;
 
     printPercentage(num);
@@ -53,13 +53,13 @@ void printPercentage(float n)
         }
     }
         p1 = (cnt1*100)/n;
-        cout<<"percent p1: "<<p1<<"%"<<endl;
+        cout<<"Percent p1: "<<p1<<"%"<<endl;
         p2 = (cnt2*100)/n;
-        cout<<"percent p2: "<<p2<<"%"<<endl;
+        cout<<"Percent p2: "<<p2<<"%"<<endl;
         p3 = (cnt3*100)/n;
-        cout<<"percent p3: "<<p3<<"%"<<endl;
+        cout<<"Percent p3: "<<p3<<"%"<<endl;
         p4 = (cnt4*100)/n;
-        cout<<"percent p4: "<<p4<<"%"<<endl;
+        cout<<"Percent p4: "<<p4<<"%"<<endl;
         p5 = (cnt5*100)/n;
-        cout<<"percent p5: "<<p5<<"%"<<endl;
+        cout<<"Percent p5: "<<p5<<"%"<<endl;
 }
